@@ -1,7 +1,9 @@
-a = "\u0030"  # unicode for 0
-b = "\u00B2"  # unicode for &sup2;
-c = "10km2"
+import numpy as np
+import matplotlib as mpl
+import matplotlib.pyplot as plt
 
-print(a.isnumeric())
-print(b.isnumeric())
-print(c.isnumeric())
+x = np.arange(10, 30, 0.23)
+y = 3 * x ** 2 + 5 * x + 3
+
+plt.plot(x, y)
+plt.show()
