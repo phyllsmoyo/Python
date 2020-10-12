@@ -1,9 +1,1 @@
-import numpy as np
-import matplotlib as mpl
-import matplotlib.pyplot as plt
-
-x = np.arange(10, 30, 0.23)
-y = 3 * x ** 2 + 5 * x + 3
-
-plt.plot(x, y)
-plt.show()
+!wget -O teleCust1000t.csv https://s3-api.us-geo.objectstorage.softlayer.net/cf-courses-data/CognitiveClass/ML0101ENv3/labs/teleCust1000t.csv
