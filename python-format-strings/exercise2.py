@@ -55,4 +55,4 @@ message2 = "Sinothi"
 print(message.rjust(20))
 print(message2.rjust(20, "-"))
 print(message.ljust(20))
-print(message.ljust(20, "_"))
+print(message.ljust(20, "-"))
