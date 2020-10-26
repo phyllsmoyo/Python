@@ -15,5 +15,5 @@ def factorial(n):
         return n * (factorial(n - 1))
 
 
-n = -1
+n = 50
 print(factorial(n))
