@@ -1,8 +1,8 @@
-t_date = input("Today's date?\n")
-b_fast = int(input("Breakfast calories?\n"))
-lunch = int(input("Lunch calories?\n"))
-dinner = int(input("Dinner calories?\n"))
-snack = int(input("Snack calories?\n"))
-sum_calorie = b_fast + lunch + dinner + snack
+import pandas as pd
+import numpy as np
 
-print("Calorie content for " + (t_date) + ":" + str(sum_calorie))
+# from sklearn.dataset import load_dataset
+
+dataset = load_dataset
+
+print(dataset)

@@ -20,3 +20,5 @@ else:
 
 
 print('Temperature in Celcius is {}'.format(celcius))
+
+from sklearn.model_selection import LinearRegression

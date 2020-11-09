@@ -1,1 +1,5 @@
-!wget -O teleCust1000t.csv https://s3-api.us-geo.objectstorage.softlayer.net/cf-courses-data/CognitiveClass/ML0101ENv3/labs/teleCust1000t.csv
+import pandas as pd
+import numpy as np
+from sklearn.dataset import load_dataset
+
+dataset = load_dataset
